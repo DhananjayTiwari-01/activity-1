@@ -26,5 +26,6 @@ function draw() {
     movingRect.velocityY = movingRect.velocityY * (-1);
     fixedRect.velocityY = fixedRect.velocityY * (-1);
   }
+  
   drawSprites();
 }
